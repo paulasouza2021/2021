@@ -1,0 +1,15 @@
+h1 {
+    color: #ff0000;
+    border: 1px solid #0000ff;
+}
+
+.paragrafo {
+    font-size:  38px;
+    border: 1px solid #0000ff;
+    border-radius: 50%;
+}
+
+.imagenzinha {
+    width: 600px;
+    border-radius: 8px;
+}  
