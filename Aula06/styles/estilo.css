@@ -1,0 +1,22 @@
+
+#button1 {
+    background-color :rgba(66, 170, 153, 0.938);
+    padding: 10px; 
+    /* quando você coloca apenas 1 valor de padding ele replica
+    aos quatro cantos (isso vale também pra margin) */
+    /* padding: 15px 5px; */
+    /* quando você coloca dois valores o código compreende como
+    sendo o primeiro para cima/baixo e o segundo pra 
+    esquerda/direita */
+    /* padding: 10px 15px 20px 25px; */
+    /* quando você coloca os 4 ele segue a ordem do sentido
+    horário! cima, direita, baixo e esquerda */
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+#button2 {
+    background-color: #c21c1c;
+}
