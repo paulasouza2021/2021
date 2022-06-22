@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: deepskyblue;
+}
+
+.flex-container > div {
+    background-color: azure;
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+body {
+    background-color:aquamarine
+}
+h1 {
+    color: blue
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    animation: mylastmove 5s infinite;
+}
+
+.space-around > div {
+  
+  height: 100px;
+  background: dodgerblue;
+  position:relative;
+  animation: mymove 5s infinite;
+}
+
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 30px;}
+}
+
+@keyframes mylastmove {
+  from {background-color: dodgerblue;}
+  to {background-color: #f1f1f1;}
+}
+
